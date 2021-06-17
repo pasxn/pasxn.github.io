@@ -1,0 +1,49 @@
+body{
+  font-family: monospace
+}
+
+a{
+  color: #001426;
+}
+
+a:hover{
+  font-weight: bolder;
+}
+
+a:focus{
+  background-color: #c4c0c0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child:first-child {
+  margin-right: 30px;
+} 
+
+.title{
+  font-size: 50px;
+  font-weight:bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li{
+  margin: 10px 0;
+}
+
+.footer{
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.img{
+  height: 230px;
+}
+
+.subtitle{
+  font-size: 20px; 
+}
