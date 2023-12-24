@@ -1,49 +1,41 @@
-body{
-  font-family: monospace
+body {
+  font-family: monospace;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-a{
+a {
   color: #001426;
 }
 
-a:hover{
+a:hover {
   font-weight: bolder;
 }
 
-a:focus{
+a:focus {
   background-color: #c4c0c0;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-child:first-child {
-  margin-right: 30px;
-} 
-
-.title{
-  font-size: 50px;
+.title {
+  font-size: 40px;
   font-weight:bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-li{
-  margin: 10px 0;
+ul {
+  text-align: left;
 }
 
-.footer{
+.footer {
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
-}
-
-.img{
-  height: 150px;
-}
-
-.subtitle{
-  font-size: 20px; 
+  bottom: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
