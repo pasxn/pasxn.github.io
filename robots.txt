@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pasxn.github.io/sitemap.xml
